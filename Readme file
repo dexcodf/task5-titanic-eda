@@ -1,0 +1,49 @@
+# Titanic EDA — Data Analyst Internship Task 5
+
+This project is part of my Data Analyst Internship and involves performing **Exploratory Data Analysis (EDA)** on the Titanic dataset using Python libraries such as **Pandas**, **Matplotlib**, and **Seaborn**.
+
+## 📁 Project Structure
+
+📦 Titanic_EDA/
+├── Titanic.ipynb # Jupyter Notebook containing the EDA
+├── Titanic.csv # Dataset (Titanic training data)
+├── Titanic Train.py # Script version of the notebook (optional)
+├── EDA_Report.pdf # Exported PDF report from the notebook
+└── README.md # Project documentation
+
+
+## 📊 Tools & Libraries Used
+
+- Python 3.x
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+## 🔍 Objectives
+
+- Explore the Titanic dataset visually and statistically.
+- Identify trends and relationships between variables.
+- Present insights through charts like histograms, boxplots, countplots, pairplots, and heatmaps.
+
+## 📌 Key Insights
+
+- **Age Distribution:** Majority of passengers were young adults, with many children and some elderly.
+- **Survival by Age:** Younger passengers had a higher survival rate.
+- **Gender Impact:** Females had a significantly higher chance of survival.
+- **Class Factor:** 1st and 2nd class passengers were more likely to survive than 3rd class.
+- **Correlation:** Positive correlation between survival and being female or in a higher class.
+
+## 📄 Deliverables
+
+- `Titanic.ipynb`: Contains all EDA code, visuals, and written insights.
+- `EDA_Report.pdf`: PDF version of the notebook for easy viewing.
+- `Titanic.csv`: Dataset used for analysis.
+
+## 🚀 How to Run
+
+1. Clone the repository.
+2. (Optional) Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # or venv\Scripts\activate on Windows
